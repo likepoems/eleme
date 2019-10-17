@@ -9,7 +9,7 @@ import Mine from '@/components/Home/Mine/mine'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   mode: 'history',
   linkActiveClass: 'active',
   routes: [
@@ -29,15 +29,24 @@ export default new Router({
         }, {
           path: '/find',
           name: 'Find',
-          component: Find
+          component: Find,
+          meta: {
+            title: '发现'
+          }
         }, {
           path: '/order',
           name: 'Order',
-          component: Order
+          component: Order,
+          meta: {
+            title: '订单'
+          }
         }, {
           path: '/mine',
           name: 'Mine',
-          component: Mine
+          component: Mine,
+          meta: {
+            title: '我的'
+          }
         }
       ]
     },
@@ -48,3 +57,8 @@ export default new Router({
     }
   ]
 })
+router.beforeEach((to, from, next) => {
+  window.document.title = to.meta.title || '饿了么'
+  next()
+})
+export default router

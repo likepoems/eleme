@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/eleme.png">
     <router-view/>
   </div>
 </template>
@@ -11,13 +10,21 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="stylus" scoped>
+.child-view {
+  position: absolute;
+  width: 100%;
+  transition: all .8s cubic-bezier(.55, 0, .1, 1);
+}
+ .slide-left-enter,.slide-right-leave-active {
+  opacity: 0;
+  -webkit-transform: translate(500px, 0);
+  transform: translate(500px, 0);
+}
+.slide-left-leave-active,
+  .slide-right-enter {
+    opacity: 0;
+    -webkit-transform: translate(-500px, 0);
+    transform: translate(-500px, 0);
 }
 </style>
