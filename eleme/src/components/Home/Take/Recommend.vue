@@ -45,7 +45,7 @@ export default {}
     }
     .p1{
       float: left;
-      font-size: .4rem;
+      font-size: .36rem;
       color: gold;
       font-weight: 500;
       margin-left: .2rem
@@ -59,10 +59,12 @@ export default {}
   .list{
     width: 100%;
     height: auto;
+    padding: 0 .266667rem;
     margin: 0;
      .list_con{
+            width: 1.7rem;
             list-style: none;
-            padding: 0 5%;
+            padding: 0 .3rem;
         img{
           width: 1.5rem;
           height: 1.5rem;
@@ -72,13 +74,14 @@ export default {}
         .name{
           width: 1.5rem;
           margin-top: 0;
+          font-size: .293333rem; /* 22/75 */
           overflow: hidden;
           white-space: nowrap;
           text-overflow:ellipsis;
         }
         .jx{
            color: blue;
-           font-size: .25rem;
+           font-size: .1rem;
            text-align: center;
            padding: .1rem .15rem;
            border: 1px solid blue;

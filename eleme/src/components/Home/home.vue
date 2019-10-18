@@ -65,7 +65,7 @@ export default {
         text-align: center;
         .link {
           display: block;
-          padding: 5px;
+          padding: .066667rem /* 5/75 */
           width: 100%;
           height: 100%;
           color: #666;
@@ -78,7 +78,7 @@ export default {
             font-size: 0.5797rem;
           }
           p {
-            margin: 2px 0 0 0;
+            margin: .026667rem 0 0 0;
             font-size: 0.2899rem;
           }
         }

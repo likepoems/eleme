@@ -87,6 +87,7 @@ export default {
       input {
         width: 100%;
         height: 0.8857rem;
+        font-size .4rem
         text-align: center;
         outline: none;
         border: none;

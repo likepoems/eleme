@@ -40,9 +40,11 @@ export default {
     float left
     width 20%
     text-align center
-    padding 20px
+    padding .25rem
     box-sizing border-box
     color #333
+    p
+     font-size .293333rem
     img
       max-width 100%
 </style>

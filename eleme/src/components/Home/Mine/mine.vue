@@ -11,7 +11,7 @@
       <div class="user cl">
         <img class="head-pic" src="http://up.qqjia.com/z/face01/face06/facejunyong/junyong04.jpg" alt="">
         <div class="content">
-          <div class="name">冷眼望世界</div>
+          <div class="name">{{user.username}}</div>
           <div class="phone">
             <i class="icon-take icon-shouji"></i>{{user.phone | phone }}</div>
         </div>
@@ -143,7 +143,7 @@ export default {
       }
     }
     .user {
-      margin-top: 30px;
+      margin-top: .4rem
       .head-pic {
         display: inline-block;
         width: 1.6908rem;
@@ -160,7 +160,7 @@ export default {
           font-weight: 400;
         }
         .phone {
-          margin-top: 35px;
+          margin-top: .466667rem;
           font-size: 0.4026rem;
           i {
             font-size: 0.4026rem;
@@ -181,7 +181,7 @@ export default {
       flex: auto;
       text-align: center;
       border-right: 1px solid #ccc;
-      padding:10px 0;
+      padding:.133333rem 0
       &:nth-child(3) {
         border: none;
       }
@@ -202,7 +202,7 @@ export default {
       }
       .text {
         color: #666;
-        margin-top:.106667rem /* 8/75 */
+        margin-top:.106667rem
         font-size: 0.2576rem;
       }
     }
