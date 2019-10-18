@@ -3,6 +3,7 @@
     <el-rate
     v-model="value"
     disabled
+    show-score
     text-color="#ff9900"
     :max="max"
     score-template="{value}">

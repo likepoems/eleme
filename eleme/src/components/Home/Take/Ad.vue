@@ -2,13 +2,13 @@
   <div class="swiper">
     <mt-swipe :auto="10000" :showIndicators="false">
       <mt-swipe-item>
-        <img src="/static/img/ad/add1.png"/>
+        <img src="/static/img/ad/ad.png"/>
       </mt-swipe-item>
       <mt-swipe-item>
-        <img src="/static/img/ad/add2.png"/>
+        <img src="/static/img/ad/ad2.gif"/>
       </mt-swipe-item>
       <mt-swipe-item>
-        <img src="/static/img/ad/add3.png"/>
+        <img src="/static/img/ad/ad3.jpg"/>
       </mt-swipe-item>
     </mt-swipe>
   </div>

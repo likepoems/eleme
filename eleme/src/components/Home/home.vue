@@ -2,6 +2,7 @@
   <div class="home">
     <div class="mai">
       <router-view></router-view>
+      <div style="height:1.2rem"></div>
     </div>
     <div class="navbar">
       <ul class="nav-menu">
@@ -36,8 +37,8 @@
 
 <script>
 export default {
-  name: "Home"
-};
+  name: 'Home'
+}
 </script>
 
 <style lang="stylus">

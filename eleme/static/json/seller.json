@@ -169,7 +169,7 @@
     }]
   },
   {
-    "id": 10,
+    "id": 11,
     "logo": "static/img/seller/shaochengchunqiu.png",
     "name": "少城春秋•川湘菜（花园餐厅店）",
     "rating": 4.5,
@@ -186,7 +186,7 @@
     }]
   },
   {
-    "id": 11,
+    "id": 12,
     "logo": "static/img/seller/waipo.jpeg",
     "name": "外婆印象（含光店）",
     "rating": 5,
@@ -203,7 +203,7 @@
     }]
   },
   {
-    "id": 12,
+    "id": 13,
     "logo": "static/img/seller/black.jpeg",
     "name": "黑泷堂（电子正街店）",
     "rating": 2.5,
@@ -220,7 +220,7 @@
     }]
   },
   {
-    "id": 13,
+    "id": 14,
     "logo": "static/img/seller/xiaoxianzhou.webp",
     "name": "稻童小鲜粥（长安中路店）",
     "rating": 2.5,

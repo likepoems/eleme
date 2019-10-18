@@ -55,6 +55,14 @@ a {
   opacity: 1;
   background: #333!important;
 }
+.el-rate{
+  display: block;
+  height: 20px;
+  float: left;
+}
 .el-rate__icon{
   font-size:30px;
+}
+.el-rate__text{
+  font-size: 25px;
 }
